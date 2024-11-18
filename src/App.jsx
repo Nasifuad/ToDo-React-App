@@ -1,15 +1,30 @@
 import "./App.css";
 import Title from "./assets/components/Title";
-import Todo1 from "./assets/components/Todo1";
 import TodoInput from "./assets/components/TodoInput";
-import Todo2 from "./assets/components/Todo2";
+import Todos from "./assets/components/Todos";
 function App() {
+  let Todo = [
+    {
+      key: 1,
+      task: "Learn React",
+      isComplete: false,
+    },
+    {
+      key: 2,
+      task: "Go to Market",
+      isComplete: false,
+    },
+    {
+      key: 3,
+      task: "Return Home",
+      isComplete: false,
+    },
+  ];
   return (
     <div className="container my-5">
       <Title />
       <TodoInput />
-      <Todo1 />
-      <Todo2 />
+      <Todos Todo={Todo}></Todos>
     </div>
   );
 }
