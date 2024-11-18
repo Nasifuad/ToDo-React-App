@@ -30,6 +30,8 @@ input {
 .n-row {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  border: 1px solid pink;
 }
 .todos {
   width: 100%;
@@ -37,4 +39,8 @@ input {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  border: 1px solid yellow;
+}
+.custom-btn {
+  width: 100px;
 }

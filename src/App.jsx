@@ -36,7 +36,7 @@ function App() {
     },
   ];
   return (
-    <div className="container my-5">
+    <div className="container my-5 ">
       <Title />
       <TodoInput />
       <Todos Todo={Todo}></Todos>

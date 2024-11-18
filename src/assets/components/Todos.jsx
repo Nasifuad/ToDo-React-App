@@ -8,7 +8,7 @@ const Todos = ({ Todo }) => {
             <div key={todo.key} className="todos">
               <li>{todo.task}</li>
               <p className="date">{todo.Date}</p>
-              <button className="btn btn-danger">Delete</button>
+              <button className="btn btn-danger custom-btn">Delete</button>
             </div>
           );
         })}
