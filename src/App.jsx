@@ -8,16 +8,31 @@ function App() {
       key: 1,
       task: "Learn React",
       isComplete: false,
+      Date: "10.2.2022",
     },
     {
       key: 2,
       task: "Go to Market",
       isComplete: false,
+      Date: "10.2.2022",
     },
     {
-      key: 3,
-      task: "Return Home",
+      key: 2,
+      task: "Go to Market",
       isComplete: false,
+      Date: "10.2.2022",
+    },
+    {
+      key: 2,
+      task: "Go to Market",
+      isComplete: false,
+      Date: "10.2.2022",
+    },
+    {
+      key: 2,
+      task: "Go to Market",
+      isComplete: false,
+      Date: "10.2.2022",
     },
   ];
   return (

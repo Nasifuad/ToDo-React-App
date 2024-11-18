@@ -27,3 +27,14 @@ input {
   display: flex;
   gap: 10px;
 }
+.n-row {
+  display: flex;
+  flex-direction: column;
+}
+.todos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
